@@ -26,7 +26,7 @@ class AadhaarVerificationScreen extends StatefulWidget {
 class _AadhaarVerificationScreenState extends State<AadhaarVerificationScreen> {
   final TextEditingController _aadhaarController = TextEditingController();
   final TextEditingController _otpController = TextEditingController();
-  static const String _twilioAccountSid = 'AC40d7164c488209b91e51e14a501eff8b';
+  static const String _twilioAccountSid = String.fromEnvironment('AC40d7164c488209b91e51e14a501eff8b');
   static const String _twilioAuthToken = 'd250d69c5aaf52c90677353b318eef0a';
   static const String _twilioServiceSid = 'VAba4d49ac05aac9cf1cbf536a7cdebf02';
   static const String _twilioNumber = '+16057608663';
