@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462931104473",
+    "project_id": "agrinova-7550f",
+    "storage_bucket": "agrinova-7550f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462931104473:android:8f51cfbe2f666ec634e4c8",
+        "android_client_info": {
+          "package_name": "com.example.project_agrinova"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_FWhoc6BggXNkPWUFPJ5qmdIj8KuZCGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

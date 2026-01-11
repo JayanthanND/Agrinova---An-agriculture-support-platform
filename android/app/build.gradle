@@ -1,0 +1,59 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin" // Flutter Gradle Plugin
+    id 'com.google.gms.google-services'
+}
+
+def localPropertiesFile = rootProject.file("local.properties")
+def localProperties = new Properties() // Correct instantiation
+
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader("UTF-8") { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty("flutter.versionCode", "1")
+def flutterVersionName = localProperties.getProperty("flutter.versionName", "1.0")
+
+android {
+    namespace = "com.example.project_agrinova"
+
+    compileSdkVersion = localProperties.getProperty("flutter.compileSdkVersion", "34").toInteger() // Update to 34
+    ndkVersion = localProperties.getProperty("flutter.ndkVersion", "21.4.7075529")
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.project_agrinova"
+        minSdkVersion localProperties.getProperty("flutter.minSdkVersion", "23").toInteger()
+        targetSdkVersion localProperties.getProperty("flutter.targetSdkVersion", "34").toInteger() // Update to 34
+        versionCode = flutterVersionCode.toInteger()
+        versionName = flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug // Temporary debug signing
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1' // Or the latest version
+    implementation 'androidx.core:core-ktx:1.6.0' // Optional but recommended for Kotlin projects
+
+    // Your existing dependencies
+    implementation platform('com.google.firebase:firebase-bom:33.2.0')  // Ensure you're using the latest BOM version
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage'
+}
