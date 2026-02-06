@@ -169,6 +169,53 @@ AI-powered decision support for farmers.
 
 ---
 
+## ⚙️ Other Features
+
+### 🌐 Language Selection
+
+Supports multi-language accessibility to make the platform inclusive for farmers from different regions.
+
+|                                                                                      |                                                                                      |                                                                                      |                                                                                      |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| ![](https://github.com/user-attachments/assets/d6838342-a259-4555-aee7-7fa240ba1323) | ![](https://github.com/user-attachments/assets/3ead250e-55d0-430a-82bc-0eb61e4e5a0e) | ![](https://github.com/user-attachments/assets/f1ca085d-f7ff-4b27-b9d8-45123a9597bc) | ![](https://github.com/user-attachments/assets/5f3c9700-abe7-47a3-a214-a59d5eb0e87e) |
+
+---
+
+### 💬 Real-time Conversations
+
+Built-in messaging feature enabling direct communication between farmers, donors, investors, and retailers.
+
+|                                                                                      |                                                                                      |                                                                                      |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| ![](https://github.com/user-attachments/assets/4c702a5b-2346-4fc8-8d09-4592652d393c) | ![](https://github.com/user-attachments/assets/47ad5c47-6410-4658-9769-e3c0fa42fd02) | ![](https://github.com/user-attachments/assets/3860c2d6-3473-40c9-bad9-ed23f220256d) |
+
+---
+
+### 🤖 AI Chatbot Assistance
+
+Provides instant guidance and answers related to platform usage and agricultural queries.
+
+|                                                                                      |
+| ------------------------------------------------------------------------------------ |
+| ![](https://github.com/user-attachments/assets/02633431-4c66-4d3d-8d70-66246dea5978) |
+
+---
+
+### ℹ️ About Screen
+
+Displays application details, purpose, and vision for transparency and trust-building.
+
+|                                                                                      |
+| ------------------------------------------------------------------------------------ |
+| ![](https://github.com/user-attachments/assets/c1e87d0a-a13e-4b09-bd3e-2bc902ca1e36) |
+
+---
+
+|---|---|
+| ![](https://github.com/user-attachments/assets/3848021a-3048-4e32-bcfb-6465b1e01c37) | ![](https://github.com/user-attachments/assets/5a3d7a3c-311e-4e0a-b57a-beb20a876483) | ![](https://github.com/user-attachments/assets/5ab30d72-c7ee-4926-84db-6110c4de9399) |
+
+---
+
 ## 🌍 Impact
 
 AGRINOVA creates a collaborative ecosystem where technology, finance, and agriculture converge—empowering farmers, enabling responsible investments, and building a more sustainable agricultural future.
